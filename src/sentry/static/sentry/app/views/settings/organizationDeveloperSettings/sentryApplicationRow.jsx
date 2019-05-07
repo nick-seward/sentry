@@ -140,7 +140,9 @@ export default class SentryApplicationRow extends React.PureComponent {
                     <React.Fragment>
                       {!hasAccess && (
                         <Tooltip
-                          title={t('Organization owner permissions are required for this action.')}
+                          title={t(
+                            'Organization owner permissions are required for this action.'
+                          )}
                         >
                           <Button disabled size="small" icon="icon-trash" />
                         </Tooltip>
